@@ -26,7 +26,7 @@ const exampleOne = async () => {
 
   // Create tournament
   await manager.create(standing);
-
+  // await manager.import(standing)
 
   // Do tournament
   await manager.update.match({id: 0, opponent1: { result: 'win' }});
